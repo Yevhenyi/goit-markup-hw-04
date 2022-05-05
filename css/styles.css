@@ -325,6 +325,14 @@ img {
   fill: #ffffff;
 }
 
+.author-soc-link:focus {
+  background-color: #2196f3;
+}
+
+.author-soc-link:focus .author-soc-icon {
+  fill: #ffffff;
+}
+
 /* ----------FOOTER---------- */
 
 .footer {
