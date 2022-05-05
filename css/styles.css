@@ -277,7 +277,7 @@ img {
 
 .author-text {
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -288,6 +288,41 @@ img {
 .content {
   padding-top: 30px;
   padding-bottom: 30px;
+}
+
+.author-soc-list {
+  display: flex;
+  justify-content: center;
+}
+
+.author-soc-item {
+  margin-right: 10px;
+}
+
+.author-soc-item:last-child {
+  margin-right: 0;
+}
+
+.author-soc-link {
+  width: 44px;
+  height: 44px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.author-soc-icon {
+  fill: #afb1b8;
+}
+
+.author-soc-link:hover {
+  background-color: #2196f3;
+}
+
+.author-soc-link:hover .author-soc-icon {
+  fill: #ffffff;
 }
 
 /* ----------FOOTER---------- */
