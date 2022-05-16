@@ -183,6 +183,17 @@ img {
   padding-bottom: 0;
 }
 
+/* .main-icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-bottom: 30px;
+} */
+
 .main-top-text {
   margin-top: 0;
   margin-bottom: 10px;
@@ -337,6 +348,8 @@ img {
 
 .footer {
   background-color: #2f303a;
+  max-width: 1600px;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
 }
